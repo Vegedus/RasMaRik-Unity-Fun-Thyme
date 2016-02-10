@@ -62,10 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Jump.cs" />
+    <Compile Include="Assets\Scripts\EventJump.cs" />
+    <Compile Include="Assets\Scripts\NotificationJump.cs" />
+    <Compile Include="Assets\Scripts\NotificationStuff\Event.cs" />
+    <Compile Include="Assets\Scripts\NotificationStuff\Notification.cs" />
     <Compile Include="Assets\Scripts\NotificationStuff\NotificationCenter.cs" />
-    <Compile Include="Assets\Scripts\NotificationStuff\Notifications.cs" />
     <Compile Include="Assets\Scripts\NotificationStuff\ObjectExtensions.cs" />
+    <Compile Include="Assets\Scripts\NotificationStuff\Singleton.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
